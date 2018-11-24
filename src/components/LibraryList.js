@@ -20,9 +20,9 @@ class LibraryList extends Component {
   }
 }
 
-const mapStateToProps = state => (
+const mapStateToProps = ({ libraries }) => (
   {
-    libraries: state.libraries,
+    libraries
   }
 );
 
